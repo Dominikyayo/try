@@ -1,0 +1,39 @@
+body {
+    background-image: url(cat\ rainbow.gif), url(cat\ rainbow.gif);
+    background-size: 275px;
+    background-repeat: repeat-x, repeat-x;
+    background-position: 10px 740px, 10px -20px;
+    background-color: #043264;
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+#button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#play-button {
+    background-color: rgb(218, 83, 223);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Komika Axis;
+    font-size: 16px;
+}
+
+.centro {
+    position: absolute;
+    left: 80%;
+    transform: translate(5%, 85%);
+}
